@@ -1,2 +1,39 @@
 <DOCTYPE html>
-    
+    <html>
+
+    <head>
+        <title>CSS Positioning</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>City Bistro</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Menu</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>Welcome to the City Bistro</h2>
+                <p>Yuor favourite place for coffee!</p>
+            </section>
+
+            <section class="content_box">
+                <h3>Menu</h3>
+                <ul>
+                    <li>Black coffee</li>
+                    <li>Latte</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            &copy; City Bistro | 2025
+        </footer>
+    </body>
+
+    </html>

@@ -1,0 +1,23 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.jumbotron-style {
+    background: linear-gradient(135deg, rgb(245, 186, 237), rgb(152, 152, 255));
+    color: azure;
+    padding: 60px 30px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
