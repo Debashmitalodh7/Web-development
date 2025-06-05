@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Little Oven</title>
+    <link href="style.css" rel="stylesheet">
+
+    <body>
+        <div class="container">
+            <header>
+                <h1>The Little Oven</h1>
+                <p>We’re a cozy little bakery serving fresh, homemade goodness straight from The Little Oven to your heart. 🧁</p>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <h2>Welcome to The Little Oven!!</h2>
+                <p> At The Little Oven, we bake with love and simple ingredients to bring you fresh, homemade treats every day.
+                Our cozy bakery is dedicated to creating warm, comforting flavors that remind you of home.
+                From classic breads to sweet pastries, every bite is crafted to delight and satisfy.</p>
+
+                <h3>Our Bestsellers</h3>
+                <ul>
+                    <li>Croissant</li>
+                    <li>Chocolate Brownie</li>
+                    <li>Cinnamon Roll</li>
+                    <li>Sourdough Bread</li>
+                    <li>Blueberry Muffin</li>
+                    <li>Banana Bread</li>
+                    <li>Eclair</li>
+                    <li>Apple Pie</li>
+                    <li>Cheese Danish</li>
+                    <li>Lemon Tart</li>
+                </ul>
+            </main>
+        </div>
+    </body>
+</head>
+</html>
