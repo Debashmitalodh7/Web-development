@@ -6,6 +6,20 @@
 </head>
 
 <body>
+    <h1 id="heading">Heading from HTML</h1>
     
+    <p id="add_result"></p>
+
+    <p id="subtract_result"></p>
+
+    <p id="multplcaton_result"></p>
+
+    <p id="divition_result"></p>
+
+    <script src="script2.js">
+
+    </script>
+
 </body>
+
 </html>
