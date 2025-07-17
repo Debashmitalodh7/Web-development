@@ -1,24 +1,22 @@
 // Array
-var skills = ['Scratch', 'MIT APP Inventor' , 'HTML' , 'CSS' , 'BootStrap' , 'JavaScript' ];
+var student = [ 'karina' , '15' , '9' ,  'Drawing'];
 
 // Access values
-document.writeln(skills[0] + "<br>")
-document.writeln(skills[1] + "<br>")
-document.writeln(skills[2] + "<br>")
-document.writeln(skills[3] + "<br>")
-document.writeln(skills[4] + "<br>")
-document.writeln(skills[5] + "<br>")
+document.writeln(student[0] + "<br>")
+document.writeln(student[1] + "<br>")
+document.writeln(student[2] + "<br>")
+document.writeln(student[3] + "<br>")
 
 document.writeln("<br>");
 // Arrays methods
 // join methods: Convert array into string
-document.writeln(skills.join(" - ") + "<br><br>");
+document.writeln(student.join(" - ") + "<br><br>");
 
 // pop method: remove the last element from the array
-skills.pop();
-skills.pop();
-skills.pop();
-document.writeln(skills + "<br><br>");
+student.pop();
+student.pop();
+student.pop();
+document.writeln(student + "<br><br>");
 
 // Call Stack: Track the funcion calling
 
@@ -39,4 +37,4 @@ function func3() {
     document.writeln("func3() ended.<br>");
 }
 
- func1();
+func1()
