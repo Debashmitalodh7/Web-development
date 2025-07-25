@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="demo">Doom Structure</title>
+    </head>
+    <body>
+        <p>Adding js as seperate file </p>
+    </body>
+</html>
