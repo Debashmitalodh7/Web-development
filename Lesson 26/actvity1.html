@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sort and Reverse Numbers</title>
+</head>
+
+<body>
+    <h2>JavaScript Array Sort</h2>
+    <button onclick="ascending()">Ascending Order</button>
+    <button onclick="descending()">Descending Order</button>
+    <p id="array_info"></p>
+
+    <script>
+        let numbers = [40, 100 , 1, 5, 25, 7];
+        document.getElementById("array_info").innerHTML = numbers;
+
+        function ascending()  {
+            numbers.sort(function (a, b) {
+                return a - b;
+            });
+            document.getElementById("array_info").innerHTML = numbers;
+        }
+
+        function descending() {
+            numbers.sort(function (a, b) {
+                return b - a;
+        });
+            document.getElementById("array_info").innerHTML = numbers;
+        }
+    </script>
+</body>
+
+</html>

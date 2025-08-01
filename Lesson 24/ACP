@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Print random numbers</title>
+</head>
+
+<body>
+
+    <h2>JavaScript Datatypes, Let Keywords and Loops</h2>
+
+    <p id = "result"></p>
+
+<script src="script2.js"></script>
+</body>
+
+</html>

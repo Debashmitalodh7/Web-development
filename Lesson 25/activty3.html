@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Static methods in Class</title>
+</head>
+
+<body>
+    <h2>Static methods in Class</h2>
+    <p id="hello"></p>
+    <p id="hi"></p>
+    <p id="welcome"></p>
+
+    <script>
+        class Student {
+            constructor(name) {
+                this.name = name;
+            }
+
+            static hello() {
+                return "Hello!";
+            }
+            static welcome(x) {
+                return "Welcome" + x.name;
+            }
+
+            h() {
+                return "Hi " + this.name;
+            }
+        }
+        let student = new Student("Ripley");
+        document.getElementById("hello").innerHTML = Student.hello();
+        document.getElementById("hi").innerHTML = student.hi();
+        document.getElementById("welcome").innerHTML = Student.welcome(student);
+    </script>
+</body>
+</html>
