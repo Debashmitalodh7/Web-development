@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Promises</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            function myDisplayer(value) {
+                document.getElementById("demo").innerHTML = value;
+            }
+
+            function sum(a, b) {
+                var sum = a+b;
+                myDisplayer(sum);
+            }
+
+            let myPromise = new Promise(function (resolve, rejects) {
+                // producing code may take some time
+                let x= 7; // some code  (try to change x to 5)
+
+                if (x==0) {
+                    resolve("OK");// when successful
+                } else {
+                    reject("Error! Somethimg went wrong."); // when error
+                }
+            });
+            // consuming code - must wait for fullfilled promise
+            myPromise.them(
+                function (value) { sum(5, 5); },
+                //code is successful
+                function (error) { myDisplayer(error); } //code is error
+            );
+        </script>
+    </body>
+</html>
