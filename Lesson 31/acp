@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change random colours</title>
+        <link href="style2.css" rel="stylesheet">
+    </head>
+    <body>
+        <h2>Change random colours</h2>
+
+        <form>
+            <input type="text" id="userinput">
+            <button onclick="isPalindrome(event)">Click me!!</button>
+        </form>
+        <p id="result"></p>
+        <script src="script2.js"></script>
+    </body>
+</html>
