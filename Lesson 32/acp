@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopping list</title>
+        <link href="style2.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Shopping List</h1>
+
+        <form id="shoppingform">
+            <input type="text" id="shoppinginput">
+            <button>Add</button>
+        </form>
+
+        <h3>Lists:</h3>
+        <ul id="items"></ul>
+        <script src="script2.js"></script>
+    </body>
+
+</html>
