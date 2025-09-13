@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Today Calander</title>
+    <link href="style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="calander-container" onload="showCalander()">
+        <div id="calander">00:00:00 AM</div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
