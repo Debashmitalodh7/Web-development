@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Counter App</title>
+    <link href="style2.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Counter</h1>
+    <p>
+    <span id="milliseconds">00</span>
+    </p>
+    <button id="btn_start">Start</button>
+    <button id="btn_stop">Stop</button>
+    <button id="btn_restart">Restart</button>
+
+    <script src="script2.js"></script>
+</body>
+</html>
