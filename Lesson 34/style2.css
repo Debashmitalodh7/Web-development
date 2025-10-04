@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blanchedalmond;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.calander-container {
+    background-color: bisque;
+    padding: 30px 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgb(252, 239, 221);
+}
+
+#calander {
+    color: black;
+    font-size: 30px;
+    letter-spacing: 3px;
+}

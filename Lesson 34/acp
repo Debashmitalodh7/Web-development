@@ -8,7 +8,7 @@
 
 <body>
     <div class="calander-container" onload="showCalander()">
-        <div id="calander">00:00:00 AM</div>
+        <div id="calander">00/00/0000</div>
     </div>
 
     <script src="script2.js"></script>
