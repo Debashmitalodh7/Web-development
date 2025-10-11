@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rolling Dice app using JS</title>
+    <link href="style2.css" rel="stylesheet">
+    <script src="script2.js"></script>
+</head>
+    <body>
+        <div>Click on the dice...</div>
+        <div id="dice" onclick="stopstart()"></div>
+        <img class="dice" src="dice picture.jpeg" height="300" width="300" alt="Slide 1">
+    </body>
+</html>

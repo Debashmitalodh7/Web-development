@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#dice {
+    font-size: 320px;
+}
+
+#dice:hover {
+    cursor: pointer
+}
