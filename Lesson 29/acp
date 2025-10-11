@@ -23,13 +23,13 @@
             <div class="mb-3">
                 <p id="validation_message"></p>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-subtle-primary">Submit</button>
             </form>
             </div>
             
             <div class="container m-3">
             
-                <a href="acp" class="btn btn-success">Age</a>
+                <a href="acp" class="btn btn-subtle-success">Age</a>
             
             </div>
             
@@ -45,7 +45,7 @@
             
                     <p id="message"></p>
             
-                    <button onclick="validateNumber()" class="btn btn-info">Validate</button>
+                    <button onclick="validateNumber()" class="btn btn-subtle-info">Validate</button>
             
                 </form>
             
@@ -54,7 +54,7 @@
             <div class="mb-3">
                 <p id="validation_message"></p>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-subtle-primary">Submit</button>
         </form>
     </div>
 

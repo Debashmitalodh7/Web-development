@@ -7,12 +7,12 @@ function validationForm(event) {
 
 
     if (Name == "") {
-        message = "Name is requried";
+        message = "Name is requried!!";
         document.getElementById("validation_message").style.color = "red";
     }
 
     else if (age== "") {
-        message = "Age is required";
+        message = "Age is required!!";
         document.getElementById("validation_message").style.color = "red";
     }
 
