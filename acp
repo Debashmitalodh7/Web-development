@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Website</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Add more pages to the Website</title>
+        <link rel="stylesheet" href="style2.css">
     </head>
-    <span class="border trans" style="font-size: 400px;">
+    <span class="border trans" style="font-size: 30pxpx;">
         <h1>Welcome all to this website</h1>
     </span><br>
 </section>
@@ -23,4 +23,3 @@
     </div>
 </div>
    
-</html>
