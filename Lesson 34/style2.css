@@ -3,19 +3,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: blanchedalmond;
+    background-color: rgb(198, 187, 250);
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.calander-container {
-    background-color: bisque;
+.clock-container {
+    background-color: rgb(230, 151, 250);
     padding: 30px 60px;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgb(252, 239, 221);
+    box-shadow: 0 0 20px rgb(253, 230, 252);
 }
 
-#calander {
+#clock {
     color: black;
     font-size: 30px;
     letter-spacing: 3px;

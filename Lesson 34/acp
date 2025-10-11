@@ -2,15 +2,16 @@
 <html>
 
 <head>
-    <title>Today Calander</title>
+    <title>Digital Clock</title>
     <link href="style2.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="calander-container" onload="showCalander()">
-        <div id="calander">00/00/0000</div>
+    <div class="clock-container" onload="showClock()">
+        <div id="clock">00:00:00 AM</div>
     </div>
 
     <script src="script2.js"></script>
 </body>
+
 </html>
