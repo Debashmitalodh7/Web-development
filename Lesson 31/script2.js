@@ -1,26 +1,24 @@
-body {
-    margin: 0;
-    height: 100vh;
-    display: flex;
-    flex - direction: column;
-    justify - content: center;
-    align - items: center;
-    transition: background - color 0.5s ease;
-    font - family: Arial, sans - serif;
-    color: white;
-}
+function isPalindrome(event) {
+    event.preventDefault();
 
-button {
-    padding: 10px 18px;
-    font - size: 16px;
-    border: none;
-    border - radius: 6px;
-    background: #333;
-    color: white;
-    cursor: pointer;
-    margin - top: 15px;
-}
+    let text = document.getElementById("userinput").value;
+    const pelement = document.getElementById("result");
+    if (text == "") {
+        pelement.innerText = "Please write a text"
+    } else {
+        const originaltext = text;
+        lowertext = text.toLowerCase();
+        // convert the string into an array
+        splitted = lowertext.split("");
+        // reverse the array
+        reversed = splitted.reverse();
+        // convert the reversed array into string
+        reversedstring = reversed.join("");
 
-button:hover {
-    background: #555;
+        if (reversedstring == lowertext) {
+            pelement.innerText = originaltext + " is a palindrome. ";
+        } else {
+            pelement.innerText = originaltext + " is not a palindrome. ";
+        }
+    }
 }

@@ -1,18 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(216, 216, 255);
+    background-color: rgb(150, 150, 248);
     text-align: center;
 }
 
 input {
-    border: 2px solid rgb(207, 185, 248);
+    border: 2px solid rgb(190, 160, 247);
 }
 
 button {
     border: 2px solid rgb(220, 178, 240);
     background: rgb(228, 186, 252);
-    color: azure;
+    color: rgb(253, 255, 255);
     cursor: pointer;
 }
 
