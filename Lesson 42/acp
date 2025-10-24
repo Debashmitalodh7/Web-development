@@ -12,7 +12,10 @@
 <section class="section section-dark">
     <h2>Section One</h2>
     <p>
-        Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an internet (a private network).
+        Web development is the work involved in developing a Web site for the Internet (World Wide Web) or an internet (a private network).It's a process of building and maintaining websites and web applications, encompassing everything from
+        the visual design to the behind-the-scenes functionality. It's broadly divided into front-end development (what the user
+        sees and interacts with) and back-end development (server-side logic and database management). Key technologies include
+        HTML for structure, CSS for styling, and JavaScript for interactivity.
     </p>
 </section>
 
@@ -28,9 +31,8 @@
     <h2>Food</h2>
     <p>
         Food is any substance consumed to provide nutritional support for an organism, offering energy, growth, and life
-        maintenance. It is typically of plant, animal, or fungal origin and contains essential nutrients like carbohydrates,
-        fats, proteins, vitamins, and minerals. Eating a variety of healthy foods is crucial for staying alive, staying active,
-        and preventing disease.
+        maintenance. It is typically of plant, animal, or fungal origin and contains essential nutrients like
+        carbohydrates,
     </p>
 </section>
 <div class="ping3">
@@ -45,7 +47,8 @@
 <p>Pizza</p>
 
 <p><img src="pizza.jpeg" style="width:170px;height: 170px;margin-left: 15px; float: right;">
-    Pizza is an Italian dish of a flattened, leavened bread dough topped with sauce, cheese, and other ingredients, baked at
+    Pizza is an Italian dish of a flattened, leavened bread dough topped with sauce, cheese, and other ingredients,
+    baked at
     a high temperature. Originating in Naples, Italy, the modern pizza emerged in the 18th century and became popular
     worldwide after Italian immigrants brought it to the United States. Variations exist globally, with the toppings and
     crust style differing by region.
@@ -56,16 +59,18 @@
     Pizza[a][1] is an Italian, specifically Neapolitan, dish typically consisting of a flat base of leavened wheat-based
     dough topped with tomato, cheese, and other ingredients, baked at a high temperature, traditionally in a wood-fired
     oven.
-    
-    The term pizza was first recorded in 997 AD, in a Latin manuscript from the southern Italian town of Gaeta, in Lazio, on
-    the border with Campania.[2] Raffaele Esposito is often credited for creating the modern pizza in Naples.[3][4][5][6] In
-    2009, Neapolitan pizza[7] was registered with the European Union as a traditional speciality guaranteed (TSG) dish. In
+
+    The term pizza was first recorded in 997 AD, in a Latin manuscript from the southern Italian town of Gaeta, in
+    Lazio, on
+    the border with Campania.[2] Raffaele Esposito is often credited for creating the modern pizza in
+    Naples.[3][4][5][6] In
+    2009, Neapolitan pizza[7] was registered with the European Union as a traditional speciality guaranteed (TSG) dish.
+    In
     2017, the art of making Neapolitan pizza was included on UNESCO's list of intangible cultural heritage.[8]
 </p>
 <br><br><br>
-    <div class="footer">
-        <p>@copy all rights and reserved by Swati Singh</p>
-    </div>
-
+<div class="footer">
+    <p>@copy all rights and reserved by Swati Singh</p>
+</div>
     </body>
 </html>
