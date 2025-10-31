@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trigonometric Sum</title>
+</head>
+
+<body>
+    <h2>Find Sum and Trig Values (Degrees)</h2>
+
+    <label>Enter 1st number: </label>
+    <input id="num1" type="number"><br><br>
+
+    <label>Enter 2nd number: </label>
+    <input id="num2" type="number"><br><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+        function calculate() {
+            // get input values
+            let a = Number(document.getElementById("num1").value);
+            let b = Number(document.getElementById("num2").value);
+
+            if (isNaN(a) || isNaN(b)) {
+                document.getElementById("result").innerHTML = "Please enter valid numbers!";
+                return;
+            }
+
+            // find sum
+            let sum = a + b;
+
+            // convert degree to radian
+            let rad = sum * Math.PI / 180;
+
+            // find trig values
+            let sinVal = Math.sin(rad);
+            let cosVal = Math.cos(rad);
+            let tanVal = Math.tan(rad);
+
+            // show results
+            document.getElementById("result").innerHTML =
+                "Sum = " + sum + "<br>" +
+                "sin(" + sum + "°) = " + sinVal.toFixed(4) + "<br>" +
+                "cos(" + sum + "°) = " + cosVal.toFixed(4) + "<br>" +
+                "tan(" + sum + "°) = " + tanVal.toFixed(4);
+        }
+    </script>
+</body>
+
+</html>
