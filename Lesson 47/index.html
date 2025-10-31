@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Multiplication</title>
+</head>
+
+<body>
+    <h2>Multiplication Using Function and Parameters</h2>
+
+    <label>Enter first number: </label>
+    <input id="num1" type="number"><br><br>
+
+    <label>Enter second number: </label>
+    <input id="num2" type="number"><br><br>
+
+    <button onclick="multiplyNumbers()">Multiply</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+        // define a function with parameters
+        function multiply(a, b) {
+            return a * b;
+        }
+
+        // function to get input and display result
+        function multiplyNumbers() {
+            // get values from inputs
+            let x = Number(document.getElementById("num1").value);
+            let y = Number(document.getElementById("num2").value);
+
+            // call the multiply function
+            let product = multiply(x, y);
+
+            // show result
+            document.getElementById("result").innerHTML =
+                "The multiplication result is: " + product;
+        }
+    </script>
+</body>
+
+</html>
