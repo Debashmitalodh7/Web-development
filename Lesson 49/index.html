@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>CSS Positioning Demo</h1>
+
+    <section class="static-section">
+        <h2>Static Position (default)</h2>
+        <div class="box static">I am static</div>
+        <p>Static is the default position. The element flows naturally in the page.</p>
+    </section>
+
+    <section class="relative-section">
+        <h2>Relative Position</h2>
+        <div class="box relative">I am relative</div>
+        <p>Relative position moves the element relative to its normal position.</p>
+    </section>
+
+    <section class="absolute-section">
+        <h2>Absolute Position</h2>
+        <div class="container">
+            <div class="box absolute">I am absolute</div>
+        </div>
+        <p>Absolute position moves the element relative to its nearest positioned ancestor.</p>
+    </section>
+
+    <section class="fixed-section">
+        <h2>Fixed Position</h2>
+        <div class="box fixed">I am fixed</div>
+        <p>Fixed elements stay at the same place even when you scroll.</p>
+        <p>Scroll down to see the effect.</p>
+        <div style="height: 300px;"></div>
+    </section>
+
+    <section class="sticky-section">
+        <h2>Sticky Position</h2>
+        <div class="box sticky">I am sticky</div>
+        <p>Sticky elements stick to the top when scrolling within their container.</p>
+        <div style="height: 300px;"></div>
+    </section>
+
+</body>
+
+</html>
