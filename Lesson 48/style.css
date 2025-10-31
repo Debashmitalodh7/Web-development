@@ -1,0 +1,75 @@
+/* Custom CSS for Portfolio with colors */
+
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 70px;
+    /* space for fixed navbar */
+}
+
+/* Home Section */
+#home {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    /* light gray */
+    color: #333;
+}
+
+/* About Section */
+#about {
+    padding: 60px 0;
+    background-color: #d1e7dd;
+    /* light green */
+    color: #0f5132;
+}
+
+/* Services Section */
+#services {
+    padding: 60px 0;
+    background-color: #cff4fc;
+    /* light blue */
+    color: #055160;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+    background-color: #ffe5d9;
+    /* light orange/pink */
+    color: #663c00;
+}
+
+/* Headings */
+h1,
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-weight: bold;
+    color: #ffc107 !important;
+    /* yellow */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    /* white text */
+}
+
+/* Add hover effect to links */
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Smooth scroll for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* List items in Services */
+ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
