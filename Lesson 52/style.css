@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fdf7f7;
+    /* soft pastel pink */
+    color: #333;
+}
+
+header {
+    background-color: #ffd6d6;
+    /* pastel pink */
+    text-align: center;
+    padding: 40px 0;
+    color: #5c3d3d;
+}
+
+header p {
+    font-style: italic;
+    color: #7b5e5e;
+}
+
+nav {
+    background-color: #ffe9e9;
+    /* lighter pastel pink */
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c3d3d;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #d16a6a;
+    /* darker pastel pink hover */
+}
+
+section {
+    padding: 25px;
+    text-align: center;
+}
+
+article {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ffd6d6;
+    text-align: center;
+    padding: 15px;
+    color: #5c3d3d;
+    font-size: 14px;
+    margin-top: 30px;
+}
