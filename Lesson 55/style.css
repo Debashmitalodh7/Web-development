@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fffaf5;
+    /* pastel cream */
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #ffd6f0;
+    /* pastel pink */
+    padding: 40px 0;
+    color: #5c3d5c;
+}
+
+header p {
+    font-style: italic;
+    color: #7b5e7b;
+}
+
+/* Navigation */
+nav {
+    background-color: #ffeedd;
+    /* pastel peach */
+    padding: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c3d5c;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #d16aaf;
+}
+
+/* Section & Article */
+section {
+    padding: 25px;
+}
+
+article {
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+    color: #c78cd1;
+    /* pastel violet */
+    margin-bottom: 15px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #f0cfe2;
+}
+
+th {
+    background-color: #ffcbe6;
+    /* pastel header */
+    color: #5c3d5c;
+}
+
+tr:nth-child(even) {
+    background-color: #fff0f8;
+    /* alternating pastel rows */
+}
+
+tr:hover {
+    background-color: #ffe2f3;
+}
+
+/* Footer */
+footer {
+    background-color: #ffd6f0;
+    padding: 15px;
+    color: #5c3d5c;
+    font-size: 14px;
+    margin-top: 40px;
+}
