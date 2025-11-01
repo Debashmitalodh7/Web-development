@@ -1,0 +1,70 @@
+/* Basic page setup */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdf6f0;
+    margin: 20px;
+    color: #444;
+}
+
+h1 {
+    text-align: center;
+    color: #6d597a;
+    margin-bottom: 40px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h2 {
+    color: #355070;
+    margin-bottom: 10px;
+}
+
+/* 1. Color and Background */
+.color-box {
+    color: #5a189a;
+    /* text color */
+    background-color: #f6d1f4;
+    /* background color */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* 2. Font and Text */
+.font-box {
+    font-size: 18px;
+    /* text size */
+    font-family: 'Georgia', serif;
+    /* font type */
+    text-align: center;
+    /* center align */
+    background-color: #ffe5ec;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* 3. Borders and Radius */
+.border-box {
+    border: 3px solid #84a59d;
+    /* border color and thickness */
+    border-radius: 12px;
+    /* rounded corners */
+    padding: 10px;
+    background-color: #d8e2dc;
+}
+
+/* 4. Margin and Padding */
+.spacing-box {
+    background-color: #cfe1b9;
+    border: 2px solid #718355;
+    padding: 20px;
+    /* space inside */
+    margin: 20px;
+    /* space outside */
+    border-radius: 8px;
+}
