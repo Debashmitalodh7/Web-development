@@ -3,16 +3,12 @@
     <head>
         <title>Handle errors in JS</title>
     </head>
-
     <body>
         <h1>JavaScript Error Handling and arrow function</h1>
         <p>This example demonstrates how to use <b>catch</b> to display an error.</p>
-
         <p id="result"></p>
-
         <script>
             product= (a,b) => a*b;
-
             try {
                 document.getElementById("result").inner.HTML = a;
                 // if the functiion is invoked here the result will be displayed
@@ -23,5 +19,3 @@
             }
         </script>
     </body>
-
-    

@@ -23,7 +23,6 @@
             different staples (like wheat in the north and rice in the south) and local ingredients shaping distinct cooking methodsand flavor profiles
         </p>
     </section>
-
     <div class="pimg3">
         <div class="ptext">
             <span class="border trans">
@@ -31,7 +30,6 @@
             </span>
         </div>
     </div>
-    
     <section class="section section-dark">
         <h2>Food</h2>
         <p>
@@ -51,9 +49,7 @@
             <br><br><br>
         </div>
     </div>
-    
     <p>Pizza</p>
-    
     <p><img src="pizza.jpeg" style="width:170px;height: 170px;margin-left: 15px; float: right;">
         Pizza is an Italian dish of a flattened, leavened bread dough topped with sauce, cheese, and other ingredients,
         baked at
@@ -80,6 +76,5 @@
     <div class="footer">
         <p>@copy all rights and reserved by Swati Singh</p>
     </div>
-    
     </body>
 </html>
